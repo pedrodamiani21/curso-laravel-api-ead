@@ -67,7 +67,7 @@ return [
     |
     */
 
-    'timezone' => 'America/Sao_Paulo',
+    'timezone' => 'America/Sao_Paulos',
 
     /*
     |--------------------------------------------------------------------------
@@ -174,6 +174,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        App\Providers\TelescopeServiceProvider::class,
 
     ],
 
