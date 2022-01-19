@@ -16,8 +16,8 @@ class Lesson extends Model
 
     protected $fillable = ['name', 'description', 'video'];
 
-    public function lesson()
+    public function supports()
     {
-        return $this->hasMany(Lesson::class);
+        return $this->hasMany(Support::class);
     }
 }
